@@ -1,0 +1,67 @@
+* {
+    font-family: 'Garamond';
+    text-align: center;
+}
+
+header,
+footer {
+    background-color: #0451b0;
+    color: white;
+    height: 70px;
+    font-size: 150%;
+}
+
+main{
+    display: flex;
+}
+
+.lewy {
+    background-color: #5ca4fd;
+    height: 600px;
+    width: 35%;
+}
+
+.prawy {
+    background-color: #8ec0fd;
+    height: 600px;
+    width: 65%;
+}
+
+table {
+    margin: auto;
+    border: black solid 1px;
+}
+
+tr {
+    border: black solid 1px;
+}
+
+th {
+    border: black solid 1px;
+}
+
+ol {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    padding: 8px 16px 8px 16px;
+    margin: 10px;
+    text-decoration: none;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+
+li {
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #0451b0;
+}
+
+#wynik {
+    margin-top: 100px;
+    border: black solid 1px;
+}

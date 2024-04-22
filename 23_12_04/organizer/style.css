@@ -1,0 +1,32 @@
+body {
+    max-width: 1440px;
+    margin: auto;
+    width: 100%;
+
+}
+
+main {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blok {
+    border: 2px solid green;
+    height: 100px;
+    width: 200px;
+    padding: 7px;
+    margin: 7px;
+    background-color: rgb(87, 255, 132);
+}
+
+h3,
+p {
+    text-align: center;
+}
+
+.blok:hover {
+    background-color: rgb(46, 172, 80);
+    color: white;
+    transition: 0.2s;
+}

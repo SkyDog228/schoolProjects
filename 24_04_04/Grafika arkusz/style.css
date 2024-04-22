@@ -1,0 +1,56 @@
+body{
+    background-color: #E0F7FA;
+    font-family: Arial;
+    text-align: center;
+}
+
+.all{
+    width: 95%;
+    margin: auto;
+}
+
+header{
+    background-color: #00838F;
+    height: 200px;
+}
+
+nav{
+    background-color: #006064;
+    padding: 15px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+main{
+    display: flex;
+}
+
+.blok{
+    height: 350px;
+    width: 33%;
+}
+
+ul{
+    text-align: left;
+}
+
+input[type=submit], input[type=reset]{
+    background-color: #00838F;
+    color: white;
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+    color: #80DEEA;
+}
+
+footer{
+    background-color: #006064;
+    color: white;
+    text-align: right;
+    padding: 10px;
+}
+

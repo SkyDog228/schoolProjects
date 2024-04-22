@@ -1,0 +1,50 @@
+*{
+    font-family: Verdana;
+    text-align: center;
+    margin: 0;
+}
+main{
+    display: flex;
+}
+header{
+    background-color: darkgreen;
+    color: white;
+    padding: 5px;
+}
+
+.blokLewy{
+    background-color:  PaleGreen;
+    width: 30%;
+    height: 500px;
+}
+.blokPrawy{
+    background-color: Honeydew;
+    width: 70%;
+    height: 500px;
+    padding-top: 100px;
+}
+footer{
+    background-color: PaleGreen;
+    padding: 3px;
+}
+table, td{
+    border: 1px solid DarkGreen;
+    border-collapse: collapse;
+}
+table{
+    width: 95%;
+    margin: auto;
+}
+td, th{
+    padding: 20px 0;
+}
+td > button{
+    background-color: DarkGreen;
+    color: white;
+    padding: 5x;
+}
+
+td > button:hover{
+    background-color: Honeydew;
+    color: darkgreen;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Komputery</title>
+</head>
+
+<body>
+    <div class="all">
+        <header>
+            <img src="animacja.gif" alt="Pogotowie komputerowie">
+        </header>
+        <nav>
+            <a href="./index.html">Strona Główna</a>
+            <a href="./kontakt.html">Kontakt</a>
+        </nav>
+        <main>
+            <div class="blok">
+
+            </div>
+            <div class="blok">
+                <h2>Kontakt</h2>
+                <table>
+                    <tr>
+                        <td>Imię: </td>
+                        <td><input type="text" id="imie"></td>
+                    </tr>
+                    <tr>
+                        <td>Nazwisko: </td>
+                        <td><input type="text" id="nazw"></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail: </td>
+                        <td><input type="email" id="email" required></td>
+                    </tr>
+                    <tr>
+                        <td>Zgloszenie: </td>
+                        <td><select name="" id="opcje">
+                                <option value="naprawa komputerów">naprawa komputerów</option>
+                                <option value="odzyskiwanie danych">odzyskiwanie danych</option>
+                                <option value="wirusy">wirusy</option>
+                                <option value="konfiguracja LAN">konfiguracja LAN</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="checkbox" name="" id="" checked>Wyślij kopię wiadomości</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="reset" value="Czyść"> <input type="submit" value="Wyślij" id="submit"></td>
+                    </tr>
+                </table>
+                <hr>
+                <p id="napis"></p>
+            </div>
+            <div class="blok">
+
+            </div>
+        </main>
+        <footer>
+            Autor: <em>0000000000000</em> 
+            
+        </footer>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

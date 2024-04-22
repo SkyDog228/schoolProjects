@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl5.css">
+    <title>Wędkowanie - moje hobby</title>
+</head>
+
+<body>
+    <header>
+        <h2>Dodaj nowe zawody wędkarskie</h2>
+    </header>
+    <main>
+        <form action="./zgloszenie.php" method="post">
+            <label for="low">Łowisko</label>
+            <input type="number" name="low" id="low"> <br>
+            <label for="data">Data (rrrr-mm-dd): </label>
+            <input type="text" name="data" id="data"> <br>
+            <label for="sdz">Sędzia</label>
+            <input type="text" name="sdz" id="sdz"><br>
+            <input type="reset" value="WYCZYŚĆ">
+            <input type="submit" value="DODAJ"> <br>
+        </form>
+    </main>
+</body>
+
+</html>

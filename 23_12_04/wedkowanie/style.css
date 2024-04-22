@@ -1,0 +1,12 @@
+body{
+    max-width: 1440px;
+    margin: 20px auto ;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 5px;
+    border: 1px solid black;
+}

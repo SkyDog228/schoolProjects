@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+header, footer{
+    background-color: seagreen;
+    color: white;
+}
+header{
+    height: 260px;
+    line-height: 150px;
+    font-size: 160%;
+}
+.lew{
+    width: 75%;
+}
+.praw{
+    width: 25%;
+    text-align: right;
+}
+main{
+    background-color: MintCream;
+    padding: 80px;
+}
+form{
+    margin-bottom: 20px;
+}
+footer{
+    height: 70px;
+    text-align: center;
+}

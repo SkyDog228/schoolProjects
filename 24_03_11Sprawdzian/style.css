@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    width: 100vw;
+}
+.all_foto{
+    background-color: rgb(252, 252, 161);
+    display: flex;
+    justify-content: space-around;
+    /* padding: 30px 0px 30px; */
+}
+img{
+    width: 30%;
+}
+.fotka{
+    background-color: rgb(170, 170, 20);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#foto_main{
+    border: 2px solid rgb(92, 31, 92);
+    width: 60%;
+}
+.wesele{
+    background-color: rgb(158, 158, 255);
+    text-align: center;
+    padding: 20px;
+}
+.zad3{
+    background-color: rgb(192, 129, 192);
+    text-align: center;
+    padding: 20px;
+}

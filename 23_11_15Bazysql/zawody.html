@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl3.css">
+    <title>Zawody wędkarskie</title>
+</head>
+<body>
+    <header style="display: flex;">
+        <div class="lew">
+            <h1>Zawody polskich wędkarzy</h1>
+        </div>
+        <div class="praw">
+            <img src="zawody.jpg" alt="wędkowanie">
+        </div>
+    </header>
+    <main>
+        
+       <h3>Łowiska</h3>
+        <ul>
+            <li>Zalew Węgrowski</li>
+            <li>Zbiornik Bukówka</li>
+            <li>Jeziorko Bartbetowskie</li>
+            <li>Warta-Obrzycko</li>
+        </ul>
+        <h3>Dodaj zawody wędkarskie</h3>
+        <form action="./zgloszenie.php" method="post">
+            <label for="low">Łowisko</label>
+            <input type="number" name="low" id="low"> <br>
+            <label for="data">Data</label>
+            <input type="date" name="data" id="data"> <br>
+            <label for="sdz">Sędzia</label>
+            <input type="text" name="sdz" id="sdz"><br>
+            <input type="reset" value="CZYŚĆ">
+            <input type="submit" value="DODAJ"> <br>
+        </form>
+    </main>
+    <footer>
+        <p>Stronę przygotował: Anton</p>
+    </footer>
+</body>
+</html>

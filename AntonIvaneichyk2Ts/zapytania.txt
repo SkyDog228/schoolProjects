@@ -1,0 +1,8 @@
+SELECT * FROM `pracownicy`;
+
+CREATE USER boos@acdc;
+
+---
+
+INSERT INTO pracownicy(nazwisko, imie, PESEL) VALUES ('Rak', 'Monika', 001011843690);
+
